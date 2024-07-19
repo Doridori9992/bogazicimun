@@ -109,6 +109,11 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(FOTO.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
 }
 .dropdown_menu.open{
   max-height: 100vh;
