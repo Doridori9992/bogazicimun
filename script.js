@@ -36,7 +36,7 @@
 
 
     document.addEventListener('DOMContentLoaded', () => {
-      var toDayFromNow = (new Date("Jul 19, 2024 19:30:00").getTime() / 1000) + (3600 / 60 / 60 / 24) - 1;
+      var toDayFromNow = (new Date("Jul 19, 2024 19:35:00").getTime() / 1000) + (3600 / 60 / 60 / 24) - 1;
       var flipdown = new FlipDown(toDayFromNow)
   
       .start()
