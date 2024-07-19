@@ -36,11 +36,11 @@
 
 
     document.addEventListener('DOMContentLoaded', () => {
-      var toDayFromNow = (new Date("Dec 31, 2024 23:59:59").getTime() / 1000) + (3600 / 60 / 60 / 24) - 1;
+      var toDayFromNow = (new Date("Jul 19, 2024 19:30:00").getTime() / 1000) + (3600 / 60 / 60 / 24) - 1;
       var flipdown = new FlipDown(toDayFromNow)
   
       .start()
       .ifEnded(() => {
-          document.querySelector(".flipdown").innerHTML = `<h2>Timer is ended</h2>`;
+          document.getElementById("ddd").innerHTML = "The conference has started!";
       });
   });
